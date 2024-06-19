@@ -3,8 +3,8 @@
     data(){
       return{
         image: '../images/vinicius-amnx-amano-dbOV1qSiL-c-unsplash.jpg',
-url: 'https://www.vuejs.org/',
-stockDetails : [
+        url: 'https://www.vuejs.org/',
+        stockDetails : [
   {
     itemNumber: 1,
     itemName : "Sweets",
