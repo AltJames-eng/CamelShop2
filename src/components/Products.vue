@@ -60,7 +60,7 @@
 
     <div>
         <v-row>
-            <v-col cols="12" md="4"  v-for="product in stockDetails" :key=product>
+            <v-col cols="12" md="4"  v-for="product in stock" :key=product>
             
                 <v-card
                 class="mx-auto my-12"
@@ -103,10 +103,13 @@
 
 </template>
 <script>
+
+import { mapActions, mapGetters } from 'vuex'
+
 export default{
     data(){
         return{
-            products:[1,2,3,4,5,6,7,8,9,10],
+          /*  products:[1,2,3,4,5,6,7,8,9,10],
             stockDetails : [
             {
                 itemNumber: 1,
@@ -190,12 +193,12 @@ export default{
             },
             ],
             total: 0,
-            cartItems: [],
+            cartItems: [], */
        }
                  },
     
     methods:{
-        calculateTotal(itemPrice){
+        /* calculateTotal(itemPrice){
             this.total += itemPrice
         },
         addToCart(product){
@@ -205,9 +208,17 @@ export default{
         removeFromCart(product){
             this.cartItems.pop(product)
             this.total -= product.itemPrice
-        }
+        } */
+        ...mapActions([
+            "addToCart"
+           ])
 
-    }
+    },
+    computed:{
+        ...mapGetters({
+            stock: 'stock'
+        })
+    },
 
 }
            

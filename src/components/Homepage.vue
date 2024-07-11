@@ -17,7 +17,7 @@
     itemName : "Lollipop",
     itemPrice : 10,
     itemQuantity : 4,
-    itemImage: '../images/jamie-albright-AHF_ZktTL6Q-unsplash.jpg'
+    itemImage: 'public/images/artem-beliaikin-GLg0z5z8EQU-unsplash.jpg'
     },
     ],
     }
@@ -45,17 +45,17 @@
     
       <v-carousel>
   <v-carousel-item
-    src="/public/images/customerbox-aXq1oCCjlVM-unsplash.jpg"
+    src="public/images/artem-beliaikin-GLg0z5z8EQU-unsplash.jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="public/images/jamie-albright-AHF_ZktTL6Q-unsplash.jpg"
+    src="public/images/joshua-coleman-_yVRLC75Ma8-unsplash (1).jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="public/images/vinicius-amnx-amano-dbOV1qSiL-c-unsplash.jpg"
+    src="public/images/martin-adams-zbPDL84kvRg-unsplash.jpg"
     cover
   ></v-carousel-item>
 </v-carousel>
@@ -65,13 +65,13 @@
   </v-card>
   <v-card align="center">
         <v-card-item>
-          <v-card-title>DIABETES FOR SALE</v-card-title>
+          <v-card-title>DRESS TO IMPRESS</v-card-title>
 
-          <v-card-subtitle>You might get diabetes anyway so why not do it in style :]</v-card-subtitle>
+          <v-card-subtitle>Everyone deserves to dress in style!!</v-card-subtitle>
         </v-card-item>
 
         <v-card-text>
-          Welcome to Camel Shop, where sweet dreams come true! Dive into our oasis of confectionery delights, where every treat is a journey to flavor-filled destinations. From exotic chocolates to traditional favorites, satisfy your cravings with a click. Experience the magic of Camel Shop, where every bite is a taste adventure!!
+          Clothline is your go-to online store for stylish, affordable clothing. Discover trendy and timeless pieces for men, women, and children, perfect for any occasion. Shop now and elevate your wardrobe with Clothline's curated collection of high-quality, comfortable apparel.
         </v-card-text>
 
       </v-card>
@@ -85,17 +85,17 @@
     <v-col cols="12" md="4">
       <v-card
         subtitle="Hugh Jass"
-        text="Camel Shop is my go-to for satisfying my sweet tooth. Their candies are top-notch and the customer service is excellent. Highly recommend!"
-        title="Deliciously Delightful!"
+        text="I've been shopping at Clothline for months, and I'm always impressed with the quality of their clothes. Everything feels durable and looks great, even after multiple washes. Highly recommend!"
+        title="Fantastic Quality!"
       ></v-card>
 
-      <div class="text-center text-caption">Using Props Only</div>
+      <div class="text-center text-caption"></div>
     </v-col>
 
     <v-col cols="12" md="4">
       <v-card>
         <template v-slot:title>
-          "A Taste Adventure"
+          "Stylish and Affordable"
         </template>
 
         <template v-slot:subtitle>
@@ -103,27 +103,34 @@
         </template>
 
         <template v-slot:text>
-          "I love Camel Shop for their diverse candy selection! They blend familiar favorites with exotic flavors, making every order a sweet adventure."
+          Clothline has become my favorite place to shop. Their prices are unbeatable, and I always find trendy pieces that fit perfectly. Love their selection!
         </template>
       </v-card>
 
-      <div class="text-center text-caption">Using Slots Only</div>
+      <div class="text-center text-caption"></div>
     </v-col>
 
     <v-col cols="12" md="4">
       <v-card>
         <v-card-item>
-          <v-card-title>"Perfect Sweet Treats"</v-card-title>
+          <v-card-title>"Great Customer Service"</v-card-title>
 
           <v-card-subtitle>Anna Borshion</v-card-subtitle>
         </v-card-item>
 
         <v-card-text>
-          "Camel Shop never disappoints! Their candies are always fresh and delicious. Whether for myself or as a gift, they ensure satisfaction every time."
+          I had an issue with my order, and Clothline's customer service was amazing. They resolved it quickly and were so friendly. I'll definitely keep coming back!
+
+
+
+
+
+
+
         </v-card-text>
       </v-card>
 
-      <div class="text-center text-caption">Using Markup Only</div>
+      <div class="text-center text-caption"></div>
     </v-col>
   </v-row>
 </template>
