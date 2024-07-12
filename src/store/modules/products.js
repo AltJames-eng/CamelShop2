@@ -7,7 +7,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "../clothings/hats.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        " Stylish and versatile hats for every occasion, from casual caps to sophisticated fedoras, perfect for adding a finishing touch to any outfit.",
     },
     {
       itemNumber: 27466,
@@ -16,7 +16,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/jackets.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        " A collection of trendy and functional jackets, including denim, leather, and bomber styles, designed to keep you warm while looking fashionable.",
     },
     {
       itemNumber: 27466,
@@ -25,7 +25,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/jeans.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        "High-quality jeans available in various cuts and washes, offering both comfort and durability for everyday wear",
     },
     {
       itemNumber: 27466,
@@ -34,7 +34,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/shoes.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        "An array of footwear options, including sneakers, boots, and formal shoes, crafted to provide the perfect blend of style and comfort.",
     },
     {
       itemNumber: 27466,
@@ -43,7 +43,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/suits.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        "Elegant and well-tailored suits, ideal for formal occasions and business settings, ensuring you look sharp and professional.",
     },
     {
       itemNumber: 27466,
@@ -52,7 +52,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/sweaters.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        " Cozy and stylish sweaters in a range of materials and designs, perfect for layering and keeping warm during cooler months.",
     },
     {
       itemNumber: 27466,
@@ -61,7 +61,7 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/trousers.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
+        "Comfortable and fashionable trousers, including chinos and dress pants, suitable for both casual and formal wear.",
     },
     {
       itemNumber: 27466,
@@ -70,8 +70,8 @@ const state = {
       itemQuantity: 0,
       itemImage: "public/clothings/tshits.jpg",
       description:
-        "Our sweets are wonderfully crafted by the best ingrdients to bring deliciousness to your parties",
-    }
+        "Comfortable and fashionable trousers, including chinos and dress pants, suitable for both casual and formal wear.",
+    },
   ],
 };
     const getters = {
